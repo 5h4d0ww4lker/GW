@@ -1,0 +1,151 @@
+/***********************************************************************************************/
+/* Custom Styles */
+/***********************************************************************************************/
+body {
+    padding-top: 5em;
+
+}
+
+
+.c-cta {
+    margin: 2em 0;
+}
+
+#testimonials {
+    position: relative;
+}
+
+#liststr{
+    color: #55acee;
+    font-family: cursive;
+    font-weight: bold;
+
+}
+
+
+#suppe{
+   height: 300px;
+   width: 800px;
+}
+
+
+#lms {
+
+
+    font-family: -webkit-pictograp;
+    font-style: inherit;
+    font-kerning: auto;
+    font-weight: normal;
+    color: #ffffff;
+    font-size: 15px;
+
+
+}
+
+#font1 {
+    background-color: #689914;
+    font-weight: bold;
+    font-color: gold;
+}
+
+#font2 {
+    font-family: cursive;
+    font-style: inherit;
+    font-kerning: auto;
+    font-weight: normal;
+    color: #233e04;
+}
+
+#font3 {
+    font-family: 'Raleway', sans-serif;
+    font-style: inherit;
+    font-kerning: auto;
+    font-weight: normal;
+    color: #118394;
+}
+
+#label {
+    font-family: 'Raleway', sans-serif;
+    font-style: inherit;
+    font-kerning: auto;
+    font-weight: normal;
+    background-color: aqua;
+    color: #118394;
+}
+
+#testimonials .carousel-indicators {
+    top: -30px;
+}
+
+#footer {
+
+    /*background-image: url("../img/njn.JPG");*/
+    background-color: #00B2DF;
+    border-top: 3px solid palegoldenrod;
+    margin-left: 3px;
+    margin-right: 3px;
+    color: #1b7e5a;
+    font-family: serif;
+    font-weight: bolder;
+    padding-top: 10px;
+
+
+}
+
+
+
+#footer2 {
+
+    background-image: url("../img/dsa.JPG");
+    color: #ffffff;
+
+
+}
+
+#under{
+color: #105b63;
+    border-bottom: 3px solid sandybrown;
+}
+
+
+#padd {
+
+  padding-left: 10px;
+}
+
+#paddab {
+
+    padding-left: 200px;
+}
+
+#testimonials .carousel-indicators li {
+    background-color: #ccc;
+}
+
+#testimonials .carousel-indicators li.active {
+    background-color: black;
+}
+
+.c-product-showcase {
+    margin-bottom: 2em;
+}
+
+.c-product-showcase .span4 {
+    margin-bottom: 2em;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        padding-top: 0;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .c-product-cta .btn-group {
+        float: none;
+    }
+
+    .c-product-cta .span6 {
+        margin-bottom: 2em;
+    }
+}
